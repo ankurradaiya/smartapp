@@ -1,0 +1,37 @@
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.left-line {
+    position: absolute;
+    width: 820px;
+    height: 0px;
+    left: 102px;
+    top: 39px;
+    opacity: 0.1;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.title-text {
+    position: absolute;
+    width: 209px;
+    height: 33px;
+    left: 141px;
+    top: 44px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #222222;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}

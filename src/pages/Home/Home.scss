@@ -1,0 +1,86 @@
+.list-box-img{
+    position: absolute;
+    width: 290px;
+    height: 155.44px;
+    border-radius: 10px;
+}
+
+.list-boxs{
+    position: absolute;
+    width: 290px;
+    height: 268px;
+    top: 100px;
+    background: #F4F4F4;
+    border-radius: 6px;
+}
+
+.list-txt{
+    position: absolute;
+    width: 133px;
+    height: 19px;
+    left: 84px;
+    top: 178px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.list-tag{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px
+}
+
+.list-tags{
+    width: 30px;
+    height: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+    order: 1;
+    flex-grow: 0;
+    position: relative;
+    border: 1px solid #999999;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 5px;
+    left: 55px;
+}
+
+.dots {
+    position: relative;
+    background-color: blue;
+    border-radius: 5px;
+    font-size: 0;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.dots:before {
+    position: absolute;
+    left: -20px;
+    top: 0;
+    content: '';
+
+    background-color: green;
+    border-radius: 5px;
+    font-size: 0;
+    padding: 5px;
+}
+
+.dots:after {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    content: '';
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 0;    
+    padding: 5px;
+}

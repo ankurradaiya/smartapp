@@ -1,0 +1,50 @@
+.container {
+    max-width: 1040px !important;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    background-color: unset;
+    border-color: unset;
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    color: #999999;
+    border: none !important;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-link.active {
+    color: #3860AD;
+    font-weight: 500;
+}
+
+.rounded-lg {
+    border-radius: 1rem !important;
+}
+
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+.custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+}
+
+.text-uppercase {
+    letter-spacing: 0.2em;
+}
+
+.profile_avatar{
+    border-radius: 50%;
+    width: 150px;
+    text-align: left !important;
+    padding: 15px;
+}
+
